@@ -1,6 +1,6 @@
 {
-  "name": "bow",
-  "description": "bow",
+  "name": "Nightspike Bow",
+  "description": "The painful looking Nightspike Bow",
   "start_url": "index.js",
   "components": [
     {
