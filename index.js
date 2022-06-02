@@ -92,9 +92,10 @@ export default e => {
         {
           "key": "wear",
           "value": {
-            "boneAttachment": "spine",
-            "position": [-0.4, 0.7, -0.2],
-            "quaternion": [0, 0, -0.9510565162951535, 0.30901699437494745]
+            "boneAttachment": "rightHand",
+            "position": [0, -0.03, 0],
+            "quaternion": [0.5, -0.4999999999999999, -0.5, 0.5000000000000001],
+            "scale": [1, 1, 1]
           }
         },
         {
@@ -106,10 +107,6 @@ export default e => {
         {
           "key": "use",
           "value": {
-            "boneAttachment": "rightHand",
-            "position": [0, -0.03, 0],
-            "quaternion": [0.5, -0.4999999999999999, -0.5, 0.5000000000000001],
-            "scale": [1, 1, 1],
             "animationEnvelope": [
               "bowDraw",
               "bowIdle",
