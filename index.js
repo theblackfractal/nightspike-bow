@@ -60,7 +60,7 @@ export default e => {
   let arrowApps = [];
   e.waitUntil((async () => {
     {
-      let u2 = `${baseUrl}bow.glb`;
+      let u2 = `${baseUrl}nightspikebow.glb`;
       if (/^https?:/.test(u2)) {
         u2 = '/@proxy/' + u2;
       }
